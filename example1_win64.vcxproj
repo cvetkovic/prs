@@ -20,7 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{BDE105B5-0B52-4D77-832F-3465D464A901}</ProjectGuid>
-    <RootNamespace>example1_win64</RootNamespace>
+    <RootNamespace>prs</RootNamespace>
+    <ProjectName>prs</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
