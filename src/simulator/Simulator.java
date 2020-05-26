@@ -12,7 +12,7 @@ public class Simulator {
 
     double simulationTime;
 
-    private int totalJobCounter;
+    private long totalJobCounter;
 
     private Server[] resources;
     private PriorityQueue<Event> eventQueue;

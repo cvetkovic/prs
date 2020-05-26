@@ -8,8 +8,8 @@ public class Server {
     private final double lambda;
     private final int serverID;
 
-    int numberOfProcessedTasks = 0;
-    int numberOfJobsSampled = 0;
+    long numberOfProcessedTasks = 0;
+    long numberOfJobsSampled = 0;
     private Queue<Task> jobQueue;
 
     double workingTime = 0;
