@@ -109,7 +109,7 @@ public class Simulator {
 
                 if (i == 0) {
                     bufferedWriter.write(System.lineSeparator());
-                    bufferedWriter.write("T = " + n / X + " [s]");
+                    bufferedWriter.write("T = " + n / (probabilityMatrix[0][0] * X) + " [s]");
                     bufferedWriter.write(System.lineSeparator());
                     bufferedWriter.write(System.lineSeparator());
 
